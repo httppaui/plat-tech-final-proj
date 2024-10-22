@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input[type="number"],
+button {
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #006d77;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="number"] {
+    width: 80px;
+}
+
+button:hover {
+    background-color: #0081a7;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #83c5be;
+    color: #fff;
+}
+
+table td {
+    background-color: #f9f9f9;
+}
+
+#result_table td:first-child {
+    font-weight: bold;
+}
+
+#result_table tr:hover {
+    background-color: #f0f0f0;
+}
+
+/* Adjust the colspan for the average turnaround time row */
+#result_table tr.average-row td:first-child {
+    font-weight: bold;
+}
+
+#result_table tr.average-row td:last-child {
+    text-align: right;
+}
+
+/* Adjust the colspan for the average turnaround time row */
+#result_table tr.average-row td[colspan="5"] {
+    text-align: right;
+}
